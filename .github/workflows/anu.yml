@@ -1,0 +1,23 @@
+# .github/workflows/anu.yml
+name: heroku By Anu
+
+on: 
+  push:
+    branches: 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ""
+          heroku_app_name: ""
+          heroku_email: ""
+          usedocker: true
+          docker_heroku_process_type: worker
+          stack: "container"
+        env:
+          HD_KEYRTMP: ""
+          HD_URLSRC: ""
