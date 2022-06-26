@@ -19,5 +19,5 @@ jobs:
           docker_heroku_process_type: worker
           stack: "container"
         env:
-          HD_KEYRTMP: "rtmp://origin.playdj.tv/live/c58b1b50-4112-4d01-adb4-221869d1222a"
-          HD_URLSRC: "http://144.217.70.181:9587/hin2/STARPLUSUK/tracks-v1a1/mono.m3u8"
+          HD_KEYRTMP: "rtmp://ingest.mediaserver.express/live/qcewKnba?pwd=efaaaa"
+          HD_URLSRC: "https://epiconvh.s.llnwi.net/showbox/master_1024.m3u8"
