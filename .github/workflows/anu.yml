@@ -12,12 +12,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ""
-          heroku_app_name: ""
-          heroku_email: ""
+          heroku_api_key: "b819e12e-5f52-4db6-ac63-04a4e33a7fc7"
+          heroku_app_name: "skylord2022"
+          heroku_email: "sompalsinghbaghel87@gmail.com"
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
         env:
-          HD_KEYRTMP: ""
-          HD_URLSRC: ""
+          HD_KEYRTMP: "rtmp://origin.playdj.tv/live/c58b1b50-4112-4d01-adb4-221869d1222a"
+          HD_URLSRC: "http://144.217.70.181:9587/hin2/STARPLUSUK/tracks-v1a1/mono.m3u8"
