@@ -1,6 +1,6 @@
 const spawn = require('child_process').spawn;
 
-const keyRTMP = "rtmp://ingest.mediaserver.express/live/qcewKnba?pwd=efaaaa"
+const keyRTMP = "rtmp://ingest.mediaserver.express/live/S9ZGSI3a?pwd=63989b"
 
 const urlSrc = "https://epiconvh.s.llnwi.net/showbox/master_1024.m3u8"
 
