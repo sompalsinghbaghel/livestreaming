@@ -3,18 +3,7 @@
   "keywords": [
     "node",
     "FFmpeg"
-  ],
-  "env": {
-    "KEYRTMP": {
-      "description": "RTMP server url with key",
-      "required": true
-    },
-    "URLSRC": {
-      "description": "Src to Broadcast",
-      "required": true
-    }
-  },
-  "formation": {
+  ],"formation": {
     "worker": {
       "quantity": 1,
       "size": "free"
